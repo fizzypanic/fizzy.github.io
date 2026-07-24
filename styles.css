@@ -1,9 +1,55 @@
-/* background for site */
+@font-face {
+    font-family: 'Adventurer';
+    src: url(fonts/Adventurer.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'TinyUnicode';
+    src: url(fonts/TinyUnicode.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Jersey15';
+    src: url(fonts/Jersey15-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'HelveticaRound';
+    src: url(fonts/helvetica-rounded-bold-5871d05ead8de.woff2) format('woff2');
+}
+
+/* background for site + text color */
 body {
     background-color: #232025;
     color: #ebe9eb;
 }
 
+/* color for hyperlinks*/
 a {
     color: #c38ef8;
+}
+
+.header {
+    font-family: 'Jersey15';
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.header h1 {
+    margin: 0;
+    line-height: 1;
+}
+
+.sub {
+    font-family: 'TinyUnicode';
+    font-size: 30px;
+}
+
+.sub p {
+    margin: 0;
+    line-height: 1;
+}
+
+.da_body {
+    font-family: 'HelveticaRound';
 }
