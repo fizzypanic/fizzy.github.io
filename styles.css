@@ -53,3 +53,14 @@ a {
 .da_body {
     font-family: 'HelveticaRound';
 }
+
+.bar {
+    font-family: 'HelveticaRound';
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+}
