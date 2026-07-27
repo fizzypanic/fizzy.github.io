@@ -52,7 +52,7 @@ a {
     line-height: 1;
 }
 
-.da_body {
+.body {
     font-family: 'HelveticaRound';
 }
 
@@ -64,13 +64,14 @@ a {
 }
 
 .webring {
+    font-family: 'HelveticaRound';
     margin-top: 50px;
     margin-bottom: 25px;
     text-align: center;
     width: 100%;
 }
 
-.rainbow { /* MOAR rainbow :3 */
+.rainbow { /* rainbow :3 */
     background: linear-gradient(to right, #ff4757, #1e90ff, #2ed573, #ffa502, #ff4757);
     background-size: 200% auto;
     -webkit-background-clip: text;
