@@ -22,6 +22,8 @@
 body {
     background-color: #232025;
     color: #ebe9eb;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 /* color for hyperlinks*/
@@ -57,19 +59,15 @@ a {
 .bar {
     font-family: 'HelveticaRound';
     font-size: 18px;
-    position: absolute;
-    top: 20px;
-    right: 0;
     display: flex;
     gap: 15px;
-    padding: 10px 20px;
 }
 
 .webring {
-    position: fixed;
-    bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     text-align: center;
-    width: max-content;
+    width: 100%;
 }
 
 .rainbow { /* MOAR rainbow :3 */
@@ -88,4 +86,13 @@ a {
     100% {
         background-position: 200% center;
     }
+}
+
+.top-nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;           
+    flex-wrap: wrap;             
+    gap: 15px;
+    margin-bottom: 10px; 
 }
